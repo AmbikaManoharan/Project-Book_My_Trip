@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Book My Trip</title>
+</head>
+
+<body>
+  <div class="container-fluid1">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Book My Trip</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="flightInfo.html">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="hotelInfo.html">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html" style="padding-left: 500px;">Login Or
+                Create Account</a>
+            </li>
+          </ul>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 200px;">
+          <button class="btn btn-outline-success" type="submit" style="width: 100px;">Search</button>
+        </div>
+      </div>
+    </nav>
+    <div class="">
+      <h2>Search Flights</h2>
+      <div>
+        <h5>Enjoy Hassle Free bookings with Book My Trip</h5>
+      </div>
+      <div class="container2 mb-4 m-5">
+        <div class="row">
+          <div class="col">
+            <img src="https://fastui.cltpstatic.com/image/upload/f_auto/offermgmt/images/BBD/FLIGHTS_RR_CTGOSPL_28102022.png" width="258" height="258">
+          </div>      
+        
+            <div class="col">
+              <img src="https://fastui.cltpstatic.com/image/upload/f_auto/offermgmt/images/BBD/FLIGHTS_RR_CTINT_02102022.png" width="258" height="258">
+            </div>        
+          
+            <div class="col">
+              <img src="https://fastui.cltpstatic.com/image/upload/f_auto/offermgmt/images/BBD/FLIGHTS_RR_CTDOM_02102022.png" width="258" height="258">
+            </div>
+            <div class="col">
+                <img src="https://fastui.cltpstatic.com/image/upload/f_auto/offermgmt/images/BBD/FLIGHTS_BSB_CTCITI_03112022.png" width="258" height="258">
+              </div>
+          </div>
+        </div>
+      <div class="minContainer w-100 h-auto mt-4">
+        <div class="route w-50 mt-3" style="padding-left:40px">
+          <input type="radio" name="type" id="oneway" style="padding-left:20px">
+          <label for="oneway">Oneway</label>
+          <input type="radio" name="type" id="roundtrip" style="padding-left:20px">
+          <label for="roundtrip">Round Trip</label>
+          <input type="radio" name="type" id="multicity" style="padding-left:20px">
+          <label for="multicity">Multi-City</label>
+        </div>
+        <div class="searchCity mt-4">
+          <label for="fromcity">From
+            <input type="text" id="fromcity" class="city" readonly="" value="Delhi">
+            <p>DEL, Delhi Airport India</p>
+          </label>
+          <label for="tocity" style="padding-left:30px">To
+            <input type="text" id="tocity" class="" readonly="" value="Bengaluru">
+            <label for="departure" style="padding-left:20px">Departure
+              <input type="date" name="" id="departure">
+            </label>
+            <label for="return" style="padding-left:20px">Return
+              <input type="date" name="" id="return">
+            </label>
+            <p>BLR, Bengaluru International Airport India</p>
+          </label>
+          <label for="travellers" style="padding-left:20px">Travellers & Class
+            <input type="text" name="" id="travellers" value="Economy">
+            <p>Economy/Premium/Business</p>
+          </label>
+          <div class="travellers">
+            <div class="cart-items">
+              <p>Adults(12y +)</p>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" value="1">1</button>
+                  <button type="button" class="btn btn-primary" value="2">2</button>
+                  <button type="button" class="btn btn-primary" value="3">3</button>
+                  <button type="button" class="btn btn-primary" value="4">4</button>
+                  <button type="button" class="btn btn-primary" value="5">5</button>
+                  <button type="button" class="btn btn-primary" value="6">6</button>
+                  <button type="button" class="btn btn-primary" value="7">7</button>
+                  <button type="button" class="btn btn-primary" value="8">8</button>
+                  <button type="button" class="btn btn-primary" value="9">9</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-content="Save on bookings with more than 9 travellers">
+                    >9
+                  </button>
+                </div>
+              </div>
+
+              <p>Infants(below 2 years)</p>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" value="1">1</button>
+                  <button type="button" class="btn btn-primary" value="2">2</button>
+                  <button type="button" class="btn btn-primary" value="3">3</button>
+                  <button type="button" class="btn btn-primary" value="4">4</button>
+                  <button type="button" class="btn btn-primary" value="5">5</button>
+                  <button type="button" class="btn btn-primary" value="6">6</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-content="Save on bookings with more than 9 travellers">
+                    >6
+                  </button>
+                </div>
+              </div>
+              <p>Children</p>
+              <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" value="1">1</button>
+                  <button type="button" class="btn btn-primary" value="2">2</button>
+                  <button type="button" class="btn btn-primary" value="3">3</button>
+                  <button type="button" class="btn btn-primary" value="4">4</button>
+                  <button type="button" class="btn btn-primary" value="5">5</button>
+                  <button type="button" class="btn btn-primary" value="6">6</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-content="Save on bookings with more than 9 travellers">
+                    >6
+                  </button>
+                </div>
+              </div>
+              <p>Choose Travel Class</p>
+              <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary" value="Economy">Economy</button>
+                  <button type="button" class="btn btn-primary" value="Premium">Premium</button>
+                  <button type="button" class="btn btn-primary" value="Business">Business</button>
+                </div>
+              </div>
+              <div>
+                <p data-cy="infantWarning" id="smallErrorMessage" class="redText font11">Number of infants cannot be
+                  more than adults</p>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary mb-4" style="margin-right:100px; width:150px"type="button">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container2 mb-4 m-5">
+        <h2>Top Places to visit</h2>
+        <div class="row">
+          <div class="col">
+            <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Maldives-1581454743.jpg" width="258" height="258">
+            <p><b>Maldives</b></p>
+          </div>      
+        
+            <div class="col">
+              <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Munnar-1581456447.jpg" width="258" height="258">
+              <p><b>Munnar</b></p>
+            </div>        
+          
+            <div class="col">
+              <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Dehradun-1581456133.jpg" width="258" height="258">
+              <p><b>Dehradun</b></p>
+            </div>
+            <div class="col">
+                <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Varanasi-1581429838.jpg" width="258" height="258">
+                <p><b>varanasi</b></p>
+              </div>
+          </div>
+        </div>
+        <div class="container2 mb-4 m-5">
+          <h2>Popular Destinations</h2>
+          <h5>We have selected some selections around the world for you.</h5>
+          <div class="row">
+            <div class="col">                            
+              <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Paris_1-1581458061.jpg" width="370" height="500">              
+                <p><b>Paris</b><br><a>The City of Light</a></p>               
+              </div>                  
+          
+              <div class="col">
+                <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Ooty-1581430518.jpg" width="390" height="210">
+                <p><b>Ooty</b><br><a>Endless natural beauty of the Nilgris</a></p>
+                <div class="col">
+                  <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Mysore-1581427823.jpg" width="390" height="210">
+                  <p><b>Mysore</b><br><a>A royal city with Grand Palaces and heritage sites</a></p>
+                </div>
+              </div>     
+            
+              
+              <div class="col">
+                  <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Amsterdam-1581457941.jpg" width="390" height="210">
+                  <p><b>Amsterdam</b><br><a>Venice of the North</a></p>
+                  <div class="col">
+                    <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Udaipur-1581427164.jpg" width="390" height="210">
+                    <p><b>Udaipur</b><br><a>Crowned as India's most romantic city</a></p>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="row">
+              <div class="col">                            
+                <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Bali-1581457806.jpg" width="370" height="500">              
+                  <p><b>Bali</b><br><a>Land of the Gods</a></p>               
+                </div>                  
+            
+                <div class="col">
+                  <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Dubai-1581457509.jpg" width="390" height="210">
+                  <p><b>Dubai</b><br><a>Treasured gem of the Emirates</a></p>
+                  <div class="col">
+                    <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Jodhpur-1581430247.jpg" width="390" height="210">
+                    <p><b>Jodhpur</b><br><a>A royal city with Grand Palaces and heritage sites</a></p>
+                  </div>
+                </div> 
+              
+                <div class="col">
+                    <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Pattaya-1581457214.jpg" width="390" height="210">
+                    <p><b>Pattaya</b><br><a>A lively and vibrant coastal city</a></p>
+                    <div class="col">
+                      <img src="https://cdn1.goibibo.com/voy_ing/t_g/New_dWeb_Homepage_Goa-1580994111.jpg" width="390" height="210">
+                      <p><b>Goa</b><br><a>An idyllic combination of the sun, sand and sea</a></p>
+                    </div>
+                  </div>                 
+              </div>
+          </div>
+          <div>
+            <h2>Hotel Booking FAQ'S</h2>
+            <p>Q.  What are the advantages of online hotel booking?<br><br>
+              
+              A.  Online hotel booking comes with great advantages for travellers.<br>
+              
+              1. You can book hotels in India or even International hotels sitting at home in few simple clicks.<br>
+              2. You can quickly check reviews, images, ratings and amenities of all the hotels at one place and compare hotels to suit your preferences for hotel booking.<br>
+              3. You can avail great discounts and offers on hotel booking through Goibibo.<br>
+              4. Avoiding the last-minute hotel search in an unknown city with high prices, you can book a suitable stay for yourself at reasonable prices online.<br>
+              5. You can avail attractive deals and cashback offers on digital payment options like credit cards, debit cards and e-wallets.<br>
+              6. You can customize your hotel to stay with plenty of room plans available.<br>
+              7.You can read the hotel policies online and experience a hassle-free stay</p><br><br>
+              <p>Q. In current situation of Corona pandemic (Covid 19), where can we find safe and well sanitized hotels?<br><br>
+                
+                A.  Goibibo in collaboration with various hotels have introduced goSafe Hotels, a collection of well sanitized hotels with trained staff who follow safe Practices at all times.<br>
+                 These hotels have a Safe and Hygienic environment with daily disinfection of rooms, fresh room linens, regular sanitization of common areas, safe kitchen practices, <br>
+                 maintenance of social distancing, guest and staff temperature check. The staff is trained on safe Practices and equipped with masks and gloves at all times. Some of the <br>
+                 popular cities where you can find these safe and hygienic hotels are Goa, Mumbai, Delhi, Bangalore and many more. You can choose from wide variety of these well sanitised 
+                 <br>and clean hotels on Goibibo at best prices.</p><br><br>
+                 <p>Q.  What are the popular Indian cities which are frequently visited by people?<br><br>
+                  
+                  A. India has been popular among visitors as it offers wide spectrum of experiences and landscapes. People travel in India for 3 main purposes: Business, Leisure & Religious.<br>               
+                  
+                  Some of the popular Indian cities which visitors travel for Business purpose are Mumbai, Delhi, Bangalore, Ahmedabad, Kolkata, Pune and Hyderabad. These cities are pillars<br>
+                  of India for all economic activities. These cities have plethora of Hotels which are suitable for all kind of business travellers looking for Hotel Booking. You can easily <br>
+                  book Hotels in Delhi, Hotels in Mumbai, Hotels in Bangalore, Hotels in Pune, Hotels in Hyderabad and in many other cities from Goibibo.                  
+                  Similarly, there are various Indian cities which are famous for Leisure travel. Popular ones are Goa, Jaipur, Manali, Pondicherry, Ooty and Nainital. These cities also have <br>
+                  wide variety of Hotel and alternate accommodation options for Couples and families. Goibibo is best platform to book Hotels in Goa, Hotels in Jaipur, Hotels in Manali, <br>
+                  Hotels in Pondicherry, Hotels in Nainital and many such leisure cities.
+                  
+                  India being a country of diversified culture and religions, has many popular religious places. Some of these popular cities where visitors travel for religious purpose <br>
+                  are Katra, Shirdi, Amritsar, Tirupati and Puri. These cities have also huge options in accommodation, right from budget category hotels to Luxury Hotels. Goibibo makes online hotel booking convenient for booking Hotels in Katra, Hotels in Shirdi, Hotels in Amritsar, Hotels in Tirupati, Hotels in Puri and many other such cities in India.</p>
+          </div>
+      
+  <footer>
+    <div class="footNav m-0">
+      <div class="footInfo m-3">
+      <p class="footList">Product Offering</p>
+      <div class="footnav_list">
+        <a>Flights, International Flights, Charter Flights, Hotels, International Hotels,
+          Homestays and Villas, Activities, Holidays In India, Travel Blog.</a>
+      </div><br>
+      <p class="footList">Book My Trip</p>
+      <div class="footNav_list">
+        <a>About Us, Investor Relations, Careers, Travel Agent Portal, Foreign Exchange,
+          List your Hotel, Partners-Redbus, Partners-Goibibo, Advertise with Us</a>
+      </div><br>
+      <p class="footList">About the Site</p>
+      <div class="footNav_list">
+        <a>Customer Support, Payment Security, Privacy Policy, User Agreement,
+          Terms of Service, More Offices, Make Payment, Work from Home</a>
+      </div><br>
+      <p class="footList">Quick Links</p>
+      <div>
+        <a>Flight Discount Coupons, Domestic Airlines, Indigo Airlines, Air Asia, SpiceJet,
+          GoAir, Air India, Air India Express, Vistara</a>
+      </div><br>
+      <p class="footList">Important Links</p>
+      <div>
+        <a>Cheap Flights, Flight Status, Chennai Mumbai Flights, Mumbai Hyderabad Flights,
+          Hyderabad Bangalore Flights, Delhi chennai Flights, Delhi Mumbai Flights, Delhi Bangalore Flights</a>
+      </div><br>
+      <p class="footList">Corporate Travel</p>
+      <div>
+        <a>Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel, GST Invoice for Travel,
+          Business Travel Solutions, GST Invoice for Bus, GST Invoice for Flights, GST Invoice for Corporate Travel</a>
+      </div>
+      </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
